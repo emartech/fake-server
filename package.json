@@ -1,0 +1,30 @@
+{
+  "name": "fake-server",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha test-setup.spec.js lib --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emartech/fake-server.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emartech/fake-server/issues"
+  },
+  "homepage": "https://github.com/emartech/fake-server#readme",
+  "dependencies": {
+    "koa": "2.2.0",
+    "koa-router": "7.2.0",
+    "lodash": "^4.17.4"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "mocha": "3.4.1",
+    "sinon": "2.3.1",
+    "sinon-chai": "2.10.0",
+    "supertest": "3.0.0"
+  }
+}
