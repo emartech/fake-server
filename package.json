@@ -16,7 +16,9 @@
   },
   "homepage": "https://github.com/emartech/fake-server#readme",
   "dependencies": {
+    "jsonwebtoken": "^7.4.1",
     "koa": "2.2.0",
+    "koa-jwt": "^3.2.2",
     "koa-router": "7.2.0",
     "lodash": "^4.17.4"
   },
