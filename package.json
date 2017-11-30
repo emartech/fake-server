@@ -33,11 +33,12 @@
   },
   "homepage": "https://github.com/emartech/fake-server#readme",
   "dependencies": {
+    "@koa/cors": "2.2.1",
     "jsonwebtoken": "^7.4.1",
     "koa": "2.2.0",
     "koa-jwt": "^3.2.2",
     "koa-router": "7.2.0",
-    "lodash": "^4.17.4"
+    "lodash": "4.17.4"
   },
   "devDependencies": {
     "@bubltechnology/customizable-commit-analyzer": "1.0.2-0",
