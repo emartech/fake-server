@@ -1,9 +1,26 @@
 {
-  "name": "fake-server",
+  "name": "@emartech/fake-server",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha test-setup.spec.js lib --recursive"
+    "test": "mocha test-setup.spec.js lib --recursive",
+    "semantic-release": "CI=true semantic-release pre && npm publish --access public && semantic-release post"
+  },
+  "config": {
+    "commitTypeMap": {
+      "test": "patch",
+      "chore": "patch",
+      "refactor": "patch"
+    }
+  },
+  "release": {
+    "analyzeCommits": "@bubltechnology/customizable-commit-analyzer",
+    "verifyConditions": {
+      "path": "./node_modules/semantic-release/src/lib/plugin-noop.js"
+    }
+  },
+  "engines": {
+    "node": ">= 8"
   },
   "repository": {
     "type": "git",
@@ -23,6 +40,8 @@
     "lodash": "^4.17.4"
   },
   "devDependencies": {
+    "@bubltechnology/customizable-commit-analyzer": "1.0.2-0",
+    "semantic-release": "7.0.2",
     "chai": "3.5.0",
     "mocha": "3.4.1",
     "sinon": "2.3.1",
