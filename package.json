@@ -36,6 +36,8 @@
     "@koa/cors": "2.2.1",
     "jsonwebtoken": "7.4.1",
     "koa": "2.4.1",
+    "koa-bodyparser": "4.2.0",
+    "koa-escher-auth": "2.5.4",
     "koa-jwt": "3.3.0",
     "koa-router": "7.3.0",
     "lodash": "4.17.4"
