@@ -27,7 +27,7 @@
     "url": "git+https://github.com/emartech/fake-server.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/emartech/fake-server/issues"
   },
