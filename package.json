@@ -40,7 +40,7 @@
     "koa-escher-auth": "2.5.4",
     "koa-jwt": "3.3.0",
     "koa-router": "7.3.0",
-    "lodash": "4.17.4"
+    "lodash.merge": "4.6.2"
   },
   "devDependencies": {
     "@bubltechnology/customizable-commit-analyzer": "1.0.2-0",
